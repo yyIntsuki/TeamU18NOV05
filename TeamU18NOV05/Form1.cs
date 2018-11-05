@@ -49,9 +49,9 @@ namespace TeamU18NOV05
             button6.Click += new EventHandler(blurayStop);
 
             button7.Text = "johan";
-            button7.Click += new EventHandler(johan);
+            button7.Click += new EventHandler(vdeovid);
             button8.Text = "en ny knapp";
-            button8.Click += new EventHandler(vdeovid);
+            button8.Click += new EventHandler(johan);
             button9.Text = "en ny knapp";
             button9.Click += new EventHandler(blurayBlu);
 
@@ -62,12 +62,12 @@ namespace TeamU18NOV05
 
         private void vdeovid(object sender, EventArgs e)
         {
-            label5.Text = vdeo.Extract();
+            label4.Text = vdeo.Extract();
         }
 
         private void johan(object sender, EventArgs e)
         {
-            label4.Text = johan2.Suprise();
+            label5.Text = johan2.Suprise();
         }
 
         private void blurayBlu(object sender, EventArgs e)
