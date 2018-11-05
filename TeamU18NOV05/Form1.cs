@@ -43,11 +43,15 @@ namespace TeamU18NOV05
             button4.Click += new EventHandler(dvdStop);
             button6.Text = "STOP";
             button6.Click += new EventHandler(blurayStop);
+
+            dvd = new DVD();
+            video = new Video();
+            blueray = new BluRay();
         }
 
         private void videoPlay(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            label4.Text = video.Play();
         }
 
         private void dvdPlay(object sender, EventArgs e)
