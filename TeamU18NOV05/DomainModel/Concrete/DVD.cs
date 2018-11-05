@@ -26,9 +26,9 @@ namespace TeamU18NOV05.DomainModel.Concrete
             return "DVD has stopped!";
         }
 
-        public string video()
+        public string Suprise()
         {
-            return "johan spook";
+            return "DVD wants to be BluRay...";
         }
     }
 }
