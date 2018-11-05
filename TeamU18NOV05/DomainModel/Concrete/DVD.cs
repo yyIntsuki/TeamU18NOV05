@@ -25,5 +25,10 @@ namespace TeamU18NOV05.DomainModel.Concrete
         {
             return "DVD has stopped!";
         }
+
+        public string video()
+        {
+            return "johan spook";
+        }
     }
 }

@@ -18,6 +18,9 @@ namespace TeamU18NOV05
         private IOperate dvd;
         private IOperate video;
 
+        private BluRay bluray2 = new BluRay();
+        private DVD johan2 = new DVD();
+
         public Form1()
         {
             InitializeComponent();
@@ -44,9 +47,26 @@ namespace TeamU18NOV05
             button6.Text = "STOP";
             button6.Click += new EventHandler(blurayStop);
 
+            button7.Text = "johan";
+            button7.Click += new EventHandler(johan);
+            button8.Text = "en ny knapp";
+            button8.Click += new EventHandler(blurayBlu);
+            button9.Text = "en ny knapp";
+            button9.Click += new EventHandler(blurayBlu);
+
             dvd = new DVD();
             video = new Video();
             bluray = new BluRay();
+        }
+
+        private void johan(object sender, EventArgs e)
+        {
+            label4.Text = johan2.video();
+        }
+
+        private void blurayBlu(object sender, EventArgs e)
+        {
+            label6.Text = bluray2.Blue();
         }
 
         private void videoPlay(object sender, EventArgs e)
