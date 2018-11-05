@@ -14,6 +14,10 @@ namespace TeamU18NOV05
 {
     public partial class Form1 : Form
     {
+        private IOperate blueray;
+        private IOperate dvd;
+        private IOperate video;
+
         public Form1()
         {
             InitializeComponent();
