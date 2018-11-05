@@ -19,12 +19,17 @@ namespace TeamU18NOV05.DomainModel.Concrete
 
         public string Play()
         {
-            return "Bluray is playing!";
+            return "Blu-ray is playing!";
         }
 
         public string Stop()
         {
-            return "Bluray has stopped!";
+            return "Blu-ray has stopped!";
+        }
+
+        public string Blue()
+        {
+            return "Blu-ray is now Blue-ray";
         }
     }
 }
