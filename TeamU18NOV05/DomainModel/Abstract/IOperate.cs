@@ -8,7 +8,7 @@ namespace TeamU18NOV05.DomainModel.Abstract
 {
     interface IOperate
     {
-        void Play();
-        void Stop();
+        string Play();
+        string Stop();
     }
 }
