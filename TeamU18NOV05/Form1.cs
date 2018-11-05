@@ -14,7 +14,7 @@ namespace TeamU18NOV05
 {
     public partial class Form1 : Form
     {
-        private IOperate blueray;
+        private IOperate bluray;
         private IOperate dvd;
         private IOperate video;
 
@@ -46,7 +46,7 @@ namespace TeamU18NOV05
 
             dvd = new DVD();
             video = new Video();
-            blueray = new BluRay();
+            bluray = new BluRay();
         }
 
         private void videoPlay(object sender, EventArgs e)
@@ -56,27 +56,27 @@ namespace TeamU18NOV05
 
         private void dvdPlay(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            label5.Text = dvd.Play();
         }
 
         private void blurayPlay(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            label6.Text = bluray.Play();
         }
 
         private void videoStop(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            label4.Text = video.Stop();
         }
 
         private void dvdStop(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            label5.Text = dvd.Stop();
         }
 
         private void blurayStop(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            label6.Text = bluray.Stop();
         }
     }
 }
