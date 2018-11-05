@@ -15,6 +15,18 @@ namespace TeamU18NOV05
         public Form1()
         {
             InitializeComponent();
+
+            label1.Text = "VIDEO";
+            label2.Text = "DVD";
+            label3.Text = "BLURAY";
+
+            button1.Text = "PLAY";
+            button3.Text = "PLAY";
+            button5.Text = "PLAY";
+
+            button2.Text = "STOP";
+            button4.Text = "STOP";
+            button6.Text = "STOP";
         }
     }
 }
