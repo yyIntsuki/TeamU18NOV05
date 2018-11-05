@@ -26,9 +26,9 @@ namespace TeamU18NOV05
             label2.Text = "DVD";
             label3.Text = "BLURAY";
 
-            label4.Text = "VIDEOSTATUS";
-            label5.Text = "DVDSTATUS";
-            label6.Text = "BLURAYSTATUS";
+            label4.Text = "";
+            label5.Text = "";
+            label6.Text = "";
 
             button1.Text = "PLAY";
             button1.Click += new EventHandler(videoPlay);
