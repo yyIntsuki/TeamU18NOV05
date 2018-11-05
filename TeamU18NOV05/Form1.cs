@@ -61,7 +61,7 @@ namespace TeamU18NOV05
 
         private void johan(object sender, EventArgs e)
         {
-            label4.Text = johan2.video();
+            label4.Text = johan2.Suprise();
         }
 
         private void blurayBlu(object sender, EventArgs e)
