@@ -25,5 +25,10 @@ namespace TeamU18NOV05.DomainModel.Concrete
         {
             return "Video has stopped!";
         }
+
+        public string Extract()
+        {
+            return "Your DNA has been successfully compressed.";
+        }
     }
 }

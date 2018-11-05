@@ -20,6 +20,7 @@ namespace TeamU18NOV05
 
         private BluRay bluray2 = new BluRay();
         private DVD johan2 = new DVD();
+        private Video vdeo = new Video();
 
         public Form1()
         {
@@ -50,13 +51,18 @@ namespace TeamU18NOV05
             button7.Text = "johan";
             button7.Click += new EventHandler(johan);
             button8.Text = "en ny knapp";
-            button8.Click += new EventHandler(blurayBlu);
+            button8.Click += new EventHandler(vdeovid);
             button9.Text = "en ny knapp";
             button9.Click += new EventHandler(blurayBlu);
 
             dvd = new DVD();
             video = new Video();
             bluray = new BluRay();
+        }
+
+        private void vdeovid(object sender, EventArgs e)
+        {
+            label5.Text = vdeo.Extract();
         }
 
         private void johan(object sender, EventArgs e)
