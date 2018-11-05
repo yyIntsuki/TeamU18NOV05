@@ -16,12 +16,12 @@ namespace TeamU18NOV05.DomainModel.Concrete
 
         string SerialNumber { get; set; }
 
-        public void Play()
+        public string Play()
         {
             throw new NotImplementedException();
         }
 
-        public void Stop()
+        public string Stop()
         {
             throw new NotImplementedException();
         }
