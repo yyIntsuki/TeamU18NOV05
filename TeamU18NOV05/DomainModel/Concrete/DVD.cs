@@ -18,12 +18,12 @@ namespace TeamU18NOV05.DomainModel.Concrete
 
         public string Play()
         {
-            throw new NotImplementedException();
+            return "DVD is playing!";
         }
 
         public string Stop()
         {
-            throw new NotImplementedException();
+            return "DVD has stopped!";
         }
     }
 }
