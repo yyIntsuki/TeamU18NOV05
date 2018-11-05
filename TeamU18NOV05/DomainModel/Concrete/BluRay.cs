@@ -15,7 +15,7 @@ namespace TeamU18NOV05.DomainModel.Concrete
         }
 
         // Regimal (?)
-        string Regimal { get; set; }
+        string Region { get; set; }
 
         public string Play()
         {
