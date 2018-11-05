@@ -20,6 +20,10 @@ namespace TeamU18NOV05
             label2.Text = "DVD";
             label3.Text = "BLURAY";
 
+            label4.Text = "VIDEOSTATUS";
+            label5.Text = "DVDSTATUS";
+            label6.Text = "BLURAYSTATUS";
+
             button1.Text = "PLAY";
             button3.Text = "PLAY";
             button5.Text = "PLAY";
