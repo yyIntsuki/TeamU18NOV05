@@ -19,12 +19,12 @@ namespace TeamU18NOV05.DomainModel.Concrete
 
         public string Play()
         {
-            throw new NotImplementedException();
+            return "Bluray is playing!";
         }
 
         public string Stop()
         {
-            throw new NotImplementedException();
+            return "Bluray has stopped!";
         }
     }
 }
